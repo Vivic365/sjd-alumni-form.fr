@@ -217,10 +217,15 @@
             <p>Ensemble, renforçons notre réseau • 2025-2026</p>
         </div>
         
-        <form class="form-container" id="alumniForm">
+        <form class="form-container" id="alumniForm" action="https://formspree.io/f/xvgwpqjk" method="POST">
             <div class="progress-bar">
                 <div class="progress-fill" id="progressFill"></div>
             </div>
+            
+            <!-- Champs cachés pour Formspree -->
+            <input type="hidden" name="_subject" value="Nouveau membre SJD Alumni - Recensement 2025-2026">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
             
             <!-- Section 1: Informations Personnelles -->
             <div class="section">
@@ -525,20 +530,6 @@
             
             // Initialiser la progression
             updateProgress();
-        });
-        
-        // Gestion de la soumission du formulaire
-        document.getElementById('alumniForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Ici, vous pouvez ajouter votre logique de soumission
-            // Par exemple, envoi vers Google Forms, base de données, etc.
-            
-            alert('✅ Merci ! Vos informations ont été enregistrées avec succès.\n\nVous recevrez bientôt des informations sur votre groupe local alumni.');
-            
-            // Optionnel : réinitialiser le formulaire
-            // this.reset();
-            // updateProgress();
         });
     </script>
 </body>
