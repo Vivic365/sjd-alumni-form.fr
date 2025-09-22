@@ -318,20 +318,15 @@
                         <label for="specialisation">Spécialisation/Filière</label>
                         <select id="specialisation" name="specialisation">
                             <option value="">Sélectionnez votre spécialisation</option>
-                            <option value="droit-des-affaires">Droit des Affaires</option>
-                            <option value="droit-international">Droit International</option>
-                            <option value="droit-public">Droit Public</option>
-                            <option value="droit-penal">Droit Pénal</option>
-                            <option value="droit-social">Droit Social</option>
-                            <option value="droit-fiscal">Droit Fiscal</option>
-                            <option value="droit-immobilier">Droit Immobilier</option>
-                            <option value="propriete-intellectuelle">Propriété Intellectuelle</option>
+                            <option value="SJMB">SJMB</option>
+                            <option value="SJP">SJP</option>
+                            <option value="SJH">SJH</option>
                             <option value="autre">Autre</option>
                         </select>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="universite">Université d'origine</label>
+                    <label for="universite">Université où vous avez été diplômé(e) en France</label>
                     <input type="text" id="universite" name="universite" placeholder="Ex: Université Paris 1 Panthéon-Sorbonne">
                 </div>
             </div>
@@ -351,21 +346,32 @@
                 </div>
                 <div class="form-group">
                     <label for="secteur">Secteur d'activité</label>
-                    <select id="secteur" name="secteur">
-                        <option value="">Sélectionnez votre secteur</option>
-                        <option value="cabinet-avocat">Cabinet d'avocats</option>
-                        <option value="entreprise-prive">Entreprise privée</option>
-                        <option value="administration-publique">Administration publique</option>
-                        <option value="magistrature">Magistrature</option>
-                        <option value="notariat">Notariat</option>
-                        <option value="huissier">Huissier de justice</option>
-                        <option value="consulting">Conseil/Consulting</option>
-                        <option value="banque-finance">Banque/Finance</option>
-                        <option value="startup-tech">Startup/Tech</option>
-                        <option value="ong-association">ONG/Association</option>
-                        <option value="enseignement-recherche">Enseignement/Recherche</option>
-                        <option value="autre">Autre</option>
-                    </select>
+                    <select id="specialisation" name="specialisation">
+                        <option value="">Sélectionnez votre spécialisation</option>
+                        <!-- SJMB - Management & Business -->
+                        <option value="management-gestion">Management et Gestion</option>
+                        <option value="marketing-communication">Marketing et Communication</option>
+                        <option value="comptabilite-audit">Comptabilité, Contrôle et Audit</option>
+                        <option value="banque-finance">Banque et Finance</option>
+                        <option value="ressources-humaines">Gestion des Ressources Humaines</option>
+                        <option value="immobilier">Transaction et Gestion Immobilière</option>
+                        <option value="supply-chain">Supply Chain Management</option>
+                        <!-- SJP - Ingénierie -->
+                        <option value="genie-civil">Génie Civil - BTP</option>
+                        <option value="urbanisme">Urbanisme et Aménagement</option>
+                        <option value="genie-logiciel">Génie Logiciel et SI</option>
+                        <option value="reseaux-telecom">Réseaux et Télécommunications</option>
+                        <option value="DATA/IA">DATA/IA</option>
+                        <option value="mecatronique">Automatique et Mécatronique</option>
+                        <option value="energie-environnement">Énergies et Environnement</option>
+                        <!-- SJHS - Santé -->
+                        <option value="sciences-biomedicales">Sciences Biomédicales</option>
+                        <option value="imagerie-medicale">Radiologie et Imagerie Médicale</option>
+                        <option value="sciences-infirmieres">Sciences Infirmières</option>
+                        <option value="assistant-bloc">Assistant Bloc Opératoire</option>
+                        
+                        <option value="autre">Autre spécialisation</option>
+                    </select>           
                 </div>
             </div>
             
