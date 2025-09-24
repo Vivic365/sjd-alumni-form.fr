@@ -330,6 +330,128 @@
                     <input type="text" id="universite" name="universite" placeholder="Ex: Université Paris 1 Panthéon-Sorbonne">
                 </div>
             </div>
+
+            <!-- Section 6: Entrepreneuriat -->
+<div class="section">
+    <h2>🚀 Entrepreneuriat et Innovation</h2>
+    <div class="form-group">
+        <label for="statut-entrepreneur">Quel est votre statut entrepreneurial ?</label>
+        <div class="radio-group">
+            <div class="radio-item">
+                <input type="radio" id="entrepreneur-actif" name="statut-entrepreneur" value="entrepreneur-actif">
+                <label for="entrepreneur-actif">Entrepreneur actif (entreprise en activité)</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="entrepreneur-creation" name="statut-entrepreneur" value="entrepreneur-creation">
+                <label for="entrepreneur-creation">En cours de création d'entreprise</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="ex-entrepreneur" name="statut-entrepreneur" value="ex-entrepreneur">
+                <label for="ex-entrepreneur">Ancien entrepreneur (vendu/fermé entreprise)</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="interesse-entrepreneuriat" name="statut-entrepreneur" value="interesse-entrepreneuriat">
+                <label for="interesse-entrepreneuriat">Intéressé par l'entrepreneuriat</label>
+            </div>
+            <div class="radio-item">
+                <input type="radio" id="pas-interesse-entrepreneuriat" name="statut-entrepreneur" value="pas-interesse-entrepreneuriat">
+                <label for="pas-interesse-entrepreneuriat">Pas d'intérêt entrepreneurial actuellement</label>
+            </div>
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="nom-entreprise">Nom de votre entreprise/projet (si applicable)</label>
+        <input type="text" id="nom-entreprise" name="nom-entreprise" placeholder="Ex: TechAfrik Solutions, Green Energy Cameroun...">
+    </div>
+    
+    <div class="form-group">
+        <label for="secteur-entreprise">Secteur d'activité de votre entreprise/projet</label>
+        <select id="secteur-entreprise" name="secteur-entreprise">
+            <option value="">Sélectionnez le secteur</option>
+            <option value="fintech">FinTech/Services financiers</option>
+            <option value="edtech">EdTech/Formation</option>
+            <option value="healthtech">HealthTech/E-santé</option>
+            <option value="agritech">AgriTech/Agriculture</option>
+            <option value="cleantech">CleanTech/Énergie verte</option>
+            <option value="ecommerce">E-commerce/Marketplace</option>
+            <option value="consulting">Conseil/Services aux entreprises</option>
+            <option value="construction-btp">Construction/BTP</option>
+            <option value="immobilier">Immobilier/PropTech</option>
+            <option value="transport-logistique">Transport/Logistique</option>
+            <option value="media-communication">Média/Communication</option>
+            <option value="industrie-manufacturing">Industrie/Manufacturing</option>
+            <option value="retail-distribution">Retail/Distribution</option>
+            <option value="tourisme-hospitalite">Tourisme/Hospitalité</option>
+            <option value="autre-secteur">Autre secteur</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="stade-developpement">Stade de développement (si applicable)</label>
+        <select id="stade-developpement" name="stade-developpement">
+            <option value="">Sélectionnez le stade</option>
+            <option value="idee">Idée/Conception</option>
+            <option value="prototype">Prototype/Développement</option>
+            <option value="lancement">Lancement/Premiers clients</option>
+            <option value="croissance">Croissance/Expansion</option>
+            <option value="maturite">Maturité/Consolidation</option>
+            <option value="pivot">Pivot/Restructuration</option>
+            <option value="sortie">Sortie/Cession envisagée</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="besoins-entrepreneuriaux">Vos besoins entrepreneuriaux (cochez toutes les cases pertinentes)</label>
+        <div class="checkbox-group">
+            <div class="checkbox-item">
+                <input type="checkbox" id="financement" name="besoins-entrepreneuriaux" value="financement">
+                <label for="financement">Financement/Investissement</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="mentorat-business" name="besoins-entrepreneuriaux" value="mentorat-business">
+                <label for="mentorat-business">Mentorat/Coaching business</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="partenaires-associes" name="besoins-entrepreneuriaux" value="partenaires-associes">
+                <label for="partenaires-associes">Partenaires/Co-fondateurs</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="clients-prospects" name="besoins-entrepreneuriaux" value="clients-prospects">
+                <label for="clients-prospects">Clients/Prospects</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="competences-techniques" name="besoins-entrepreneuriaux" value="competences-techniques">
+                <label for="competences-techniques">Compétences techniques</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="reseau-professionnel" name="besoins-entrepreneuriaux" value="reseau-professionnel">
+                <label for="reseau-professionnel">Réseau professionnel</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="juridique-admin" name="besoins-entrepreneuriaux" value="juridique-admin">
+                <label for="juridique-admin">Support juridique/administratif</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="marketing-communication" name="besoins-entrepreneuriaux" value="marketing-communication">
+                <label for="marketing-communication">Marketing/Communication</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="aucun-besoin" name="besoins-entrepreneuriaux" value="aucun-besoin">
+                <label for="aucun-besoin">Aucun besoin particulier</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="offrir-aide" name="besoins-entrepreneuriaux" value="offrir-aide">
+                <label for="offrir-aide">Je peux aider d'autres entrepreneurs</label>
+            </div>
+        </div>
+    </div>
+    
+        <div class="form-group">
+            <label for="description-projet">Description courte de votre entreprise/projet (si applicable)</label>
+            <textarea id="description-projet" name="description-projet" placeholder="Ex: Plateforme de livraison de produits locaux, Application de suivi médical, Cabinet de conseil en transformation digitale..."></textarea>
+        </div>
+    </div>
             
             <!-- Section 4: Informations Professionnelles -->
             <div class="section">
